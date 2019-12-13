@@ -164,7 +164,7 @@ daemonize = /var/log/uwsgi.log
 
 ####
 #### 创建启动脚本:/etc/init.d/uwsgi
-### 也可以直接使用uwsgi /etc/uwsgi.ini 启动
+##### 也可以直接使用uwsgi /etc/uwsgi.ini 启动
 ```bash
 #!/bin/bash
 
