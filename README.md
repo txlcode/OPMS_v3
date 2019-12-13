@@ -11,36 +11,6 @@
 
 由于目前还处于开发阶段，很多功能还没做，目前先暂且就不上传了
 
-先给一些效果图，有兴趣的可以看下，说不定我哪天就更新了！
-
-### 效果图
-
-【0】主页：
-
-![enter description here](https://github.com/PythonTra1nee/OPMS_v3/blob/master/display/index.jpg?raw=true)
-
-【1】用户管理：
-
-![enter description here](https://github.com/PythonTra1nee/OPMS_v3/blob/master/display/userinfo.jpg?raw=true)
-
-
-【2】主机管理：
-
-![enter description here](https://github.com/PythonTra1nee/OPMS_v3/blob/master/display/host.jpg?raw=true)
-
-![enter description here](https://github.com/PythonTra1nee/OPMS_v3/blob/master/display/hostinfo.jpg?raw=true)
-
-![enter description here](https://github.com/PythonTra1nee/OPMS_v3/blob/master/display/dbinfo.jpg?raw=true)
-
-![enter description here](https://github.com/PythonTra1nee/OPMS_v3/blob/master/display/webssh.jpg?raw=true)
-
-
-【3】故障和消息：
-
-![enter description here](https://github.com/PythonTra1nee/OPMS_v3/blob/master/display/guzhang.jpg?raw=true)
-
-![enter description here](https://github.com/PythonTra1nee/OPMS_v3/blob/master/display/message.jpg?raw=true)
-
 
 ### 部署方法
 
@@ -192,9 +162,9 @@ pidfile = /var/run/uwsgi.pid
 daemonize = /var/log/uwsgi.log
 ```
 
-
+####
 #### 创建启动脚本:/etc/init.d/uwsgi
-
+### 也可以直接使用uwsgi /etc/uwsgi.ini 启动
 ```bash
 #!/bin/bash
 
